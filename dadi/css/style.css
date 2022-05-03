@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    width: 600px;
+    height: 400px;
+    background-color: red;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    gap: 40px;
+    font-size: 3em;
+    text-align: center;
+}

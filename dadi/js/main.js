@@ -3,6 +3,8 @@
 const playerNumber = Math.floor(Math.random() * 6 + 1);
 const cpuNumber = Math.floor(Math.random() * 6 + 1);
 
+document.querySelector(".your-number").innerHTML = playerNumber
+document.querySelector(".cpu-number").innerHTML = cpuNumber
 console.log(playerNumber, cpuNumber)
 
 if( playerNumber > cpuNumber) {
